@@ -13,6 +13,8 @@ Tests
 Binary
 ======
 
+Example 1
+---------
     $ kata 121211
     quinze zéro
     quinze partout
@@ -22,6 +24,8 @@ Binary
     j1 gagnant
     +Partie non terminée: 1, 0
 
+Example 2
+---------
     $ kata 1212121222
     quinze zéro
     quinze partout
@@ -35,6 +39,8 @@ Binary
     j2 gagnant
     +Partie non terminée: 0, 1
 
+Example 3
+---------
     $ kata 111111111111111111111111
     quinze zéro
     trente zéro
