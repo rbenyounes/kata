@@ -1,15 +1,15 @@
-= Build
+# Build
     $ build kata.gemspec
 
-= Install
+# Install
     $ gem install ./kata-0.0.0.gem
 
-= Tests
+# Tests
     $ rake
 
-= Binary
+# Binary
 
-== Example 1
+## Example 1
     $ kata 121211
     quinze zéro
     quinze partout
@@ -19,7 +19,7 @@
     j1 gagnant
     +Partie non terminée: 1, 0
 
-== Example 2
+## Example 2
     $ kata 1212121222
     quinze zéro
     quinze partout
@@ -33,7 +33,7 @@
     j2 gagnant
     +Partie non terminée: 0, 1
 
-== Example 3
+## Example 3
     $ kata 111111111111111111111111
     quinze zéro
     trente zéro
