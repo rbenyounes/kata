@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'kata'
+
+err1 = 'Erreur! Il faut donner une séquence de vainqueurs. Exemple: 111212121'
+err2 = 'Erreur! la séquence doit contenir uniquement les chiffres 1 et 2'
+
+raise err1 if ARGV.length != 1
+chars = ARGV[0].split(//)
+raise err2 if !chars.all?{ |c| c == '1' or c == '2' }
+
+winners = chars.map{ |c| c.to_i }
+
+p1 = Partie.new
+p1.run winners
+
