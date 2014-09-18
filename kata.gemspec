@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
     ]
     s.files         = [
         'Rakefile',
+        'LICENSE',
         'README.md',
         'state_machine.jpg',
         'lib/kata.rb',
